@@ -1,0 +1,126 @@
+.parent { 
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+grid-template-rows: 10% 3fr 1%; 
+grid-column-gap: 0em;
+grid-row-gap: 2em; 
+margin: 1px; 
+border: 1px; 
+
+
+}
+
+body {
+    color: #7777; 
+    background: #ebebeb; 
+}
+
+header {
+    grid-area: 1 / 2 / 2/ 5; 
+    display: grid; 
+    background-color: ##ebebeb; 
+    padding: 0px; 
+    margin: 0px; 
+    border-bottom: 1px solid; 
+}
+
+.title { 
+    grid-area: 1 / 1 / 2 / 2; 
+    color: white; 
+    background-color: #8de0cd; 
+    display: grid; 
+    justify-self: start; 
+    align-self: end; 
+    height: 4em; 
+    font-family: 'Times New Roman', Times, serif; 
+    
+    border-color: #8de0cd; 
+    border-radius: 3px; 
+} 
+.item2 { 
+    grid-area: 1 / 4 / 2 / 6; 
+    color: black; 
+    justify-self: right; 
+    display: inline-grid; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 1em; 
+    align-self: end; 
+    
+} 
+
+.item2 li {
+    display: inline-grid; 
+    color: black; 
+    
+    
+    
+}
+
+.item2 ul {
+    color: black; 
+    background-color:
+}
+
+.toni {
+    height: 15rem; 
+    display: flex; 
+    float: left; 
+    border: 1px solid; 
+    border-radius: 3px; 
+    
+    
+}
+.item1 { 
+    grid-area: 2 / 2 / 3 / 5; 
+    background: white; 
+    display: inline-flex; 
+    clear: left; 
+    border: 1px solid; 
+    height: 500px; 
+    border-color: rgb(221, 216, 216); 
+    border-radius: .25em; 
+    
+} 
+.foot { 
+    grid-area: 3 / 1 / 6 / 6; 
+    color : black; 
+    display: grid; 
+    align-content: end; 
+    justify-content: center; 
+    font-size: 50%; 
+    
+} 
+
+p {
+    min-width: 0; 
+    min-height: 0; 
+    color: black; 
+    word-wrap: break-word; 
+    max-width: 100%; 
+    font-size: 1em; 
+    line-height: 1.5em; 
+
+    
+}
+
+article { 
+    grid-column: 2 / span 6; 
+    grid-row: 2 / span 5; 
+     
+}
+.item1 h2{
+    color: black; 
+}
+
+footer {
+    margin: 0px; 
+    border: 0px; 
+    border-top: 10px;  
+    justify-content: end; 
+    align-content: end; 
+    border-top: 3px solid; 
+    border-top-color:#8de0cd; 
+    background-color: #CEC8C7; 
+
+    
+}
